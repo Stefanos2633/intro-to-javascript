@@ -72,3 +72,15 @@
 // console.log(num.toString());
 //
 // console.log(parseInt(num));
+
+  const firstName = prompt('What is your first name?');
+  const responseFirstName = confirm(firstName);
+  console.log(firstName);
+
+  const lastName = prompt('What is your last name?');
+  const responseLastName = alert(lastName);
+  console.log(lastName);
+
+  const birthday = prompt('What is your Birthday');
+  const responseBirthday = confirm(birthday);
+  console.log(birthday);
